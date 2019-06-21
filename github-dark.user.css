@@ -19,7 +19,7 @@
   Cobalt "Cobalt" <<<EOT
   /*! GitHub: Cobalt *\/:root{--ghd-code-background:#002240;--ghd-code-color:#FFF}.pl-c,.pl-c span{color:#08f!important;font-style:italic!important}.pl-c1{color:#ff628c!important}.pl-e{color:#ff9d00!important}.pl-en{color:#fff!important}.pl-ent{color:#fd0!important}.pl-k{color:#ff9d00!important}.pl-mb{color:#ff628c!important;font-weight:700!important}.pl-mdh{color:#ff9d00!important}.pl-mdr{color:#ff9d00!important}.pl-mh{color:#eb939a!important}.pl-mh .pl-en{color:#eb939a!important;font-weight:700!important}.pl-mi{color:#ff9d00!important;font-style:italic!important}.pl-ml{color:#ff9d00!important}.pl-mm{color:#ff9d00!important}.pl-mo{color:#ff9d00!important}.pl-mp{color:#ff9d00!important}.pl-mq{color:#08f!important}.pl-mr{color:#ff9d00!important}.pl-ms{color:#ff9d00!important}.pl-pds{color:#3ad900!important}.pl-s{color:#3ad900!important}.pl-s1{color:#3ad900!important}.pl-s1 .pl-pse .pl-s2{color:#3ad900!important}.pl-s1 .pl-s2{color:#ccc!important}.pl-s1 .pl-v{color:#3ad900!important}.pl-s3{color:#ffb054!important}.pl-sc{color:#ffb054!important}.pl-smi{color:#ccc!important}.pl-smp{color:#ccc!important}.pl-sr{color:#80ffc2!important}.pl-sr .pl-cce{color:#eb939a!important}.pl-sr .pl-sra{color:#80ffc2!important}.pl-sr .pl-sre{color:#80ffc2!important}.pl-src{color:#80ffc2!important}.pl-st{color:#ff9d00!important}.pl-stj{color:#ccc!important}.pl-sv{color:#ff628c!important}.pl-v{color:#fd0!important}.pl-vo{color:#ccc!important}.pl-vpf{color:#ccc!important}.pl-mi1{color:#f8f8f8!important;background:rgba(0,64,0,.5)!important}.pl-mdht{color:#f8f8f8!important;background:rgba(0,64,0,.5)!important}.pl-md,.pl-mdhf{color:#f8f8f8!important;background:#800f00!important}.pl-bu,.pl-ii{color:#ff628c!important;background:#800f00!important}.highlight .pl-corl span.x,.pl-corl{color:#3ad900!important;text-decoration:underline!important}.highlight-source-js .pl-st{color:#ffee80!important}.highlight-source-css .pl-s3{color:#80ffbb!important}.highlight-text-html-basic .pl-ent{color:#9effff!important}.pl-token.active,.pl-token:hover{background:#fff!important;color:#002240!important} EOT;
   GitHub Dark "GitHub Dark" <<<EOT
-  /*! GitHub: GitHub Dark *\/:root{--ghd-code-background:#141414;--ghd-code-color:#ccc}/*! * GitHub Dark v0.5.0
+  /*! GitHub: GitHub Dark *\/:root{--ghd-code-background:#141414;--ghd-code-color:#ccc}/*! * GitHub Dark v0.5.0
  * Copyright (c) 2012 - 2017 GitHub, Inc.
  * Licensed under MIT (https://github.com/primer/github-syntax-theme-generator/blob/master/LICENSE)
  *\/.pl-c{color:#959da5}.pl-c1,.pl-s .pl-v{color:#c8e1ff}.pl-e,.pl-en{color:#b392f0}.pl-s .pl-s1,.pl-smi{color:#f6f8fa}.pl-ent{color:#7bcc72}.pl-k{color:#ea4a5a}.pl-pds,.pl-s,.pl-s .pl-pse .pl-s1,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre{color:#79b8ff}.pl-ml,.pl-v{color:#fb8532}.pl-bu{color:#d73a49}.pl-ii{color:#fafbfc;background-color:#d73a49}.pl-c2{color:#fafbfc;background-color:#d73a49}.pl-c2::before{content:"^M"}.pl-sr .pl-cce{font-weight:700;color:#7bcc72}.pl-mh,.pl-mh .pl-en,.pl-ms{font-weight:700;color:#0366d6}.pl-mi{font-style:italic;color:#f6f8fa}.pl-mb{font-weight:700;color:#f6f8fa}.pl-md{color:#b31d28;background-color:#ffeef0}.pl-mi1{color:#176f2c;background-color:#f0fff4}.pl-mc{color:#b08800;background-color:#fffdef}.pl-mi2{color:#2f363d;background-color:#959da5}.pl-mdr{font-weight:700;color:#b392f0}.pl-mo{color:#0366d6}.pl-ba{color:#ffeef0}.pl-sg{color:#6a737d}.pl-corl{text-decoration:underline;color:#79b8ff}.pl-token.active,.pl-token:hover{background:#b392f0;color:#141414} EOT;
@@ -160,36 +160,57 @@
   pre, .highlight, .diff-table, .tab-size {
     tab-size: 2 !important;
     -moz-tab-size: 2 !important;
+  }
+  .cm-tab {
+    width: 2ch !important;
   } EOT;
   3 "3" <<<EOT
   pre, .highlight, .diff-table, .tab-size {
     tab-size: 3 !important;
     -moz-tab-size: 3 !important;
+  }
+  .cm-tab {
+    width: 3ch !important;
   } EOT;
   4 "4" <<<EOT
   pre, .highlight, .diff-table, .tab-size {
     tab-size: 4 !important;
     -moz-tab-size: 4 !important;
+  }
+  .cm-tab {
+    width: 4ch !important;
   } EOT;
   5 "5" <<<EOT
   pre, .highlight, .diff-table, .tab-size {
     tab-size: 5 !important;
     -moz-tab-size: 5 !important;
+  }
+  .cm-tab {
+    width: 5ch !important;
   } EOT;
   6 "6" <<<EOT
   pre, .highlight, .diff-table, .tab-size {
     tab-size: 6 !important;
     -moz-tab-size: 6 !important;
+  }
+  .cm-tab {
+    width: 6ch !important;
   } EOT;
   7 "7" <<<EOT
   pre, .highlight, .diff-table, .tab-size {
     tab-size: 7 !important;
     -moz-tab-size: 7 !important;
+  }
+  .cm-tab {
+    width: 7ch !important;
   } EOT;
   8 "8" <<<EOT
   pre, .highlight, .diff-table, .tab-size {
     tab-size: 8 !important;
     -moz-tab-size: 8 !important;
+  }
+  .cm-tab {
+    width: 8ch !important;
   } EOT;
 }
 @advanced text font-choice "Code Font" "Menlo"
@@ -7146,7 +7167,7 @@
   .compare-pr-placeholder, .compare-cutoff, .diff-cutoff,
   .markdown-body li.added.moved, .repo-private-label, .gist-secret-label,
   .label-private, .stale-files-tab, .signed-out-comment, .commits-list-item em,
-  .unsupported-browser, .prereceive-feedback, .zhc-banner, .code-list em,
+  .unsupported-browser, .prereceive-feedback, .code-list em,
   .issue-list em, .user-list em, .wiki-list em, .blob-code .bg-yellow-light {
     background: rgba(51, 34, 17, .4) !important;
     border: 1px solid #542 !important;
@@ -7748,15 +7769,12 @@
     filter: brightness(64%) !important;
   }
   .zhc-icon:not([class$="-red"]):not([class$="-white"]):not([class$="-light"]):not([class$="-purple"]),
-  .zhc-board-loading, .zhc-board-loading__message, .zh-octicon-list-unordered,
-  .zh-octicon-pencil, .zh-octicon-inbox, .zh-octicon-plus, .zh-octicon-info,
-  .zh-octicon-milestone, .zh-octicon-chevron-down, .zh-epic-creator-tab-icon,
-  .zh-board-menu-item .zh-octicon-grey, .zh-octicon-search,
+  [class*="zh-octicon"], .zh-epic-creator-tab-icon,
   .zhc-burndown-chart__placeholder, .zhc-selection-button__container:after,
   .zhc-icon--grey-light {
     filter: invert(100%) hue-rotate(180deg) !important;
   }
-  .zhc-selection-item:hover .zhc-icon:not([class$="-red"]):not([class$="-white"]):not([class$="-light"]):not([class$="-purple"]) {
+  .zhc-selection-item:hover .zhc-icon:not([class$="-red"]):not([class$="-white"]):not([class$="-light"]):not([class$="-purple"]), [class*="zhc-image--placeholder"] {
     filter: invert(100%) brightness(1.4) !important;
   }
   /* move expanded zenhub board toolbar when octotree exists
@@ -7969,6 +7987,9 @@
   .blob-code, .blob-code-inner {
     color: var(--ghd-code-color, #ccc) !important;
   }
+  .cm-tab {
+    overflow: hidden !important;
+  }
 }
 @-moz-document regexp("^https://www\.zuora\.com.*github\.com.*$") {
   /* Styles the payment form iframe */
@@ -8003,7 +8024,7 @@
   .editor-node.bg-white, .editor-node.bg-gray-light {
     background: #1c1c1c !important;
   }
-  body, .ActionsTimeline-item.selected {
+  .ActionsTimeline-item.selected {
     background: #222 !important;
   }
   .blankslate-box, .editor-node {
@@ -8107,7 +8128,7 @@
   }
   /* run history bg */
   .jsx-2157058810 {
-    background-color: #222 !important;
+    background-color: transparent !important;
   }
   /* The dot when creating a new action */
   svg + .jsx-1812009678 {
@@ -8116,6 +8137,10 @@
   /* create new workflow link */
   .css-15cskdj {
     color: /*[[base-color]]*/;
+  }
+  /* workflow title, conflict with main page style */
+  p code {
+    background: none !important;
   }
 }
 @-moz-document domain("help.github.com") {
